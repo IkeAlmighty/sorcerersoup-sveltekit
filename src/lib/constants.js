@@ -1,1 +1,1 @@
-export const BASIC_USER_AUTH_URL = '/api/auth/discord/authorize?scope=guilds.join%20identify%20email'
+export const BASIC_USER_AUTH_URL = '/api/discord/authorize?scope=guilds.join%20identify%20email'
