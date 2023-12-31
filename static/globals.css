@@ -1,8 +1,26 @@
+:root{
+    --background-color: #605c4e;
+    --foreground-color: white;
+    --secondary-color: #331832;
+}
+
+
 button, input[type="text"] {
-    padding: 1rem;
+    padding: 0.6rem;
     border-radius: 5px;
 }
 
 button:hover {
     cursor: pointer;
 }
+
+.font-lg {
+    font-size: 2rem;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--foreground-color);
+    margin: 0;
+}
+

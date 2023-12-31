@@ -31,6 +31,7 @@
 
 </script>
 
+
 <input id="character-name" type="text" value="Character Name" />
 <button id="lock-state-button" on:click={toggleLockState}>
 {#if lockState === "unlocked"} <UnlockedIcon /> {:else} <LockedIcon /> {/if}
